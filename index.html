@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Explor the Pakistan</title>
+</head>
+<body>
+    <header id="home">
+        <div id="top-hed">
+            <div class="container">
+                <div class="top-head">
+                    <div class="container top-hed">
+                         <p>Free Website</p>
+                         <div class="moding"><img src="./icon/night.png" id="icon"><p id="mode-n">Dark Mode</p></div>
+                         <div class="img-box">
+                             <a href="#"><img src="./icon/Facebook.png" alt=""></a>
+                             <a href="#"><img src="./icon/whatsapp.png" alt=""></a>
+                             <a href="#"><img src="./icon/Tiktok.png" alt=""></a>
+                         </div>
+                    </div>
+             </div>
+            </div>
+        </div>
+         <div class="logo">
+            <div class="container">
+                <h1>Explor The Pakistan</h1>
+            </div>
+         </div>
+         <script>
+            var icon = document.getElementById("icon");
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = "./icon/light.png";
+                    document.getElementById("mode-n").textContent = ("Light Mode");
+                }
+                else{
+                    icon.src = "./icon/night.png";
+                    document.getElementById("mode-n").textContent = ("Dark Mode");
+                }
+            }
+         </script>
+        <nav>
+           <div class="container">
+            <input type="checkbox" class="input-box" id="input-box">
+            <div class="ham" id="ham">
+                <h2 class="menu" id="menu2">Menu</h2>
+                <div class="line line1" id="line1"></div>
+                <div class="line line2" id="line2"></div>
+                <div class="line line3" id="line3"></div>
+            </div>
+            <ul id="left">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About the Vallies</a></li>
+                <li><a href="#autoum">Vallies In Autoum</a></li>
+                <li><a href="#tesst">Tistimonial</a></li>
+                <li><a href="#subcribe-page">Subcribe Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="./Urdu.html">Urdu</a></li>
+            </ul>
+           </div>
+        </nav>
+    </header>
+    <section class="second">
+        <div class="container">
+            <div class="inside-second">
+            <h1>The Beautiful Vallies Of Pakistan</h1>
+            <p>Naran Kagan, Natiagali, Muree Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatum quis sit expedita porro ipsum repellat obcaecati? Inventore, obcaecati laborum ad quisquam odio ducimus minus dolor distinctio sit, officia cum.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="About">
+        <h1 class="contact-hed">About the Vallies</h1>
+        <div class="container">
+                <div class="about-big">
+                    <div class="about-container">
+                        <div class="about-box">
+                            <div class="img img1"></div>
+                            <h2>Manshra , Naran</h2>
+                            <p>Naran is Beautiful pleace Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aut?</p>
+                            <Button class="btn all-btn">Learn-More</Button>
+                        </div>
+                    </div>
+                    <div class="about-container">
+                        <div class="about-box">
+                            <div class="img img2"></div>
+                            <h2>Kashmir , Nilem Velly</h2>
+                            <p>Naran is Beautiful pleace Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aut?</p>
+                            <Button class="btn all-btn">Learn-More</Button>
+                        </div>
+                    </div>
+                    <div class="about-container">
+                        <div class="about-box">
+                            <div class="img img3"></div>
+                            <h2>Gilgilt , Hunza Velly</h2>
+                            <p>Naran is Beautiful pleace Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aut?</p>
+                            <Button class="btn all-btn">Learn-More</Button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog" id="autoum">
+        <h1 class="contact-hed">Vellies in Autoum</h1>
+        <div class="container">
+            <div class="about-big">
+                <div class="about-container">
+                    <div class="about-box">
+                        <div class="img img4"></div>
+                        <h2>Manshra , Naran</h2>
+                        <p>Naran is Beautiful pleace Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aut?</p>
+                        <Button class="btn all-btn">Learn-More</Button>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <div class="about-box">
+                        <div class="img img5"></div>
+                        <h2>Kashmir , Nilem Velly</h2>
+                        <p>Naran is Beautiful pleace Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aut?</p>
+                        <Button class="btn all-btn">Learn-More</Button>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <div class="about-box">
+                        <div class="img img6"></div>
+                        <h2>Gilgilt , Hunza Velly</h2>
+                        <p>Naran is Beautiful pleace Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aut?</p>
+                        <Button class="btn all-btn">Learn-More</Button>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="testimonial" id="tesst">
+        <h1 class="contact-hed">People Says About Us</h1>
+        <div class="container">
+            <div class="test-box">
+                <div class="test">
+                    <p class="star">&star; &star; &star; &star; &star; &star;</p>
+                    <p class="test-text">This Webpage is so helpful for visitors. In this page so many places locationt that locationt we do't know. So I suggest you check this Webpage.</p>
+                    <img src="./img/test1.png" alt="">
+                    <p class="name">Ahmed Khan</p>
+                </div>
+                <div class="test">
+                    <p class="star">&star; &star; &star; &star; &star; &star;</p>
+                    <p class="test-text">This Webpage is so helpful for visitors. In this page so many places locationt that locationt we do't know. So I suggest you check this Webpage.</p>
+                    <img src="./img/test2.jpg" alt="">
+                    <p class="name">Jadoon Baba</p>
+                </div>
+                <div class="test">
+                    <p class="star">&star; &star; &star; &star; &star; &star;</p>
+                    <p class="test-text">This Webpage is so helpful for visitors. In this page so many places locationt that locationt we do't know. So I suggest you check this Webpage.</p>
+                    <img src="./img/test3.jpg" alt="">
+                    <p class="name">Ronaq Zaman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="contact-hed">For Visiting these Vallies Please Fill the Form</h1>
+        <div class="container">
+            <div class="form">
+                <form>
+                    <h1>Contact Us</h1>
+                    <input type="text" name="" required id="" placeholder="Username">
+                    <input type="email" name="" required id=" E-mail" placeholder="E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message for Us"></textarea>
+                    <button type="submit" class="contact-btn all-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="contact-hed" id="subcribe-page">
+        <div class="container sub-container">
+            <h1>Subcribe Our Webpage</h1>
+            <input type="email" name="" id="" placeholder="E-mail Address" class="sub-input" required>
+            <button type="submit" class="sub-btn all-btn">Subcribe</button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="foot-box foot-box1">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam aliquam eos minima recusandae ab animi dolore, consectetur temporibus eveniet explicabo perferendis nisi tempore laboriosam!</p>
+                </div>
+                <div class="foot-box foot-box2">
+                    <h2>Improtant Link</h2>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#About">About the Vallies</a></li>
+                        <li><a href="#autoum">Vallies In Autoum</a></li>
+                        <li><a href="#tesst">Tistimonial</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="foot-box foot-box3">
+                    <h2>Contact Us</h2>
+                    <p>Fowara Chowk, Abbottabad</p>
+                    <p>Pakistan</p>
+                </div>
+            </div>
+        </div>
+        <div class="bootm">
+            <p>Copyright &copy; Explore the Pakistan</p>
+        </div>
+    </footer>
+</body>
+</html>

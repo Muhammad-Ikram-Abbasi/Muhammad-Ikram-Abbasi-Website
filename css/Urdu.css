@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "urdu";
+    src: url("../Fonts/UrdType.ttf");
+}
+body,h1,h2,button,#menu2{
+    font-family: urdu;
+}
+#menu2{
+    top: -18px;
+}
+p,a,li{
+    font-size: 2rem;
+}
+.top-hed{
+    flex-direction: row-reverse;
+}
+.img-box{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo h1,.sub-container h1,.sub-input,.foot-box h2,.foot-box ul li,.foot-box3 p{
+    text-align: right;
+}
+ul{
+    flex-direction: row-reverse;
+}
+.about-box h2{
+   text-align: center;
+}
+.btn{
+    padding-top: 0.2rem;
+    font-size: 1.7rem;
+}
+.form input,textarea{
+    text-align: right;
+    font-family: urdu;
+    font-size: 1.8rem;
+}
+.sub-container{
+    flex-direction: row-reverse;
+}
+.sub-input{
+    font-family: urdu;
+    margin-left: 1rem;
+}
+.footer{
+    flex-direction: row-reverse;
+}
+.foot-box h2{
+    width: 100%;
+    font-size: 3rem;
+}
+@media (max-width: 1030px){
+    .sub-container h1{
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    .sub-container h1{
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .foot-box{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    #input-box:checked ~ #ham{
+        top: 154px;
+    }
+    #input-box{
+        width: 80px;
+    }
+    .foot-box ul li a{
+        padding-right: 2rem;
+    }
+}
+@media (max-width: 500px){
+    #input-box:checked ~ #ham{
+        top: 138px;
+    }
+}
